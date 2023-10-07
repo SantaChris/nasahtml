@@ -964,3 +964,89 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* 區塊樣式 */
+.block {
+  margin: 5px;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+/* 標題樣式 */
+h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* 圖片容器樣式 */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* 單個圖片樣式 */
+.image {
+  flex-basis: calc(33.33% - 10px); /* 6張圖片橫向排列，每個佔1/3的寬度，並添加間距 */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* 圓形圖片樣式 */
+.image img {
+  border-radius: 50%;
+  max-width: 170px; /* 自定義圓形圖片的大小 */
+  height: auto;
+}
+
+/* 圖片下方文字說明樣式 */
+.image p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+/* 區塊2中的圖片樣式 */
+.image2 {
+  display:flex;
+  max-width:auto;
+  height: auto;
+  position: relative;
+  left: 10%;
+}
+
+/* 圖片下方文字說明樣式 */
+.image2 p {
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 300px;
+}
+
+/* 區塊2中的文字說明樣式 */
+.text {
+  margin-left: 20px; /* 調整文字和圖片之間的間距 */
+  font-size: 16px;
+}
+
+
+.image-container {
+  text-align: center;
+}
+
+img {
+  max-width: 70%;
+  display: none;
+  position: relative;
+  left: 15%;
+}
+
+button {
+  border-radius: 10px; /* 按钮的圆角半径，您可以根据需要调整这个值 */
+  padding: 10px 20px; /* 按钮内边距，可以根据需要调整 */
+  background-color: #70a6d6; /* 按钮的背景颜色 */
+  color: #fff; /* 按钮的文字颜色 */
+  border: none; /* 去掉按钮的边框 */  
+  font-size: 19px;
+  cursor: pointer;
+}
